@@ -9,16 +9,16 @@
 
 ## About
 
-We have integrated linked roles into our [Discord server][discord], making it more organized and enhancing the user experience. Users can now link their Discord profile to GitHub, allowing us to verify their identity. This gives users access to additional channels and roles, such as Lib Contributor, Guide Contributor, and more. These roles are no longer assigned manually; users can automatically receive them by visiting the [website][api] and linking their Discord account.
+We have integrated linked roles into our [Discord server][discord], making it more organized and enhancing the user experience. Users can now link their Discord profile to GitHub, allowing us to verify their identity. This gives users access to additional channels and roles, such as Lib Contributor, Guide Contributor, and more. These roles are no longer assigned manually by the team; users can automatically receive them by visiting the [role API][api] and linking their Discord account.
 
 ## How to use
 
-1. Users link their Discord account to GitHub in the connection page on discord.
-2. Users visit the [website][api] and log in with their Discord account.
-3. The website sends a request to the Discord API to get the user's Discord identity.
-4. The website sends a request to the GitHub API to get the user's GitHub contributions.
-5. The website sends a request to the Discord API to add the metadata informations.
-6. The Users are now able to collect the roles and access the channels.
+1. Link your Discord account to GitHub on the connections page in Discord.
+2. Open the dropdown menu in the Discord server and click on "Linked Roles."
+3. Select the role you want to assign to yourself and press on the WWebJS requirement.
+4. Visit the [role API][api] and log in with your Discord account.
+5. The role API redirects you and displays a log-in/failed/success page with information.
+6. You can now collect the roles and access the channels.
 
 ## How it works
 
