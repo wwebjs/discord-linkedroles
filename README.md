@@ -9,16 +9,18 @@
 
 ## About
 
-We have integrated linked roles into our [Discord server][discord], making it more organized and enhancing the user experience. Users can now link their Discord profile to GitHub, allowing us to verify their identity. This gives users access to additional channels and roles, such as Lib Contributor, Guide Contributor, and more. These roles are no longer assigned manually by the team; users can automatically receive them by visiting the [role API][api] and linking their Discord account.
+We have integrated linked roles into our [Discord server][discord], making it more organized and enhancing the user experience. Users can now link their Discord profile to GitHub, allowing us to verify their identity. This gives users access to additional channels and roles, such as Lib `Contributor`, `Guide Contributor`, and more. These roles are no longer assigned manually by the team; users can automatically receive them by visiting the [role API][api] and linking their Discord account.
 
 ## How to use
 
 1. Link your Discord account to GitHub on the connections page in Discord.
-2. Open the dropdown menu in the Discord server and click on "Linked Roles."
+2. Open the dropdown menu in the Discord server and click on "Linked Roles".
 3. Select the role you want to assign to yourself and press on the WWebJS requirement.
 4. Visit the [role API][api] and log in with your Discord account.
 5. The role API redirects you and displays a log-in/failed/success page with information.
 6. You can now collect the roles and access the channels.
+
+[Here][example] you can find an exmaple of the process.
 
 ## How it works
 
@@ -32,7 +34,7 @@ The user connects at `/verify` and is then redirected to log in with Discord. Af
 - [MongoDB documentation][mongodb-docs]
 - [Express documentation][express-docs]
 
-## Links
+## WWebJS Links
 
 * [Website][website]
 * [Guide][guide] ([source][guide-source]) _(work in progress)_
@@ -41,6 +43,11 @@ The user connects at `/verify` and is then redirected to log in with Discord. Af
 * [GitHub][gitHub]
 * [npm][npm]
 
+## License
+
+WWebJS discord-linkedroles is licensed under the MIT license. Please see the [LICENSE file](LICENSE) for more information.
+
+[example]: ./example.md
 [api]: https://wwebjs-linkedroles.vercel.app/verify
 [discord-docs]: https://discord.com/developers/docs
 [vercel-docs]: https://vercel.com/docs
@@ -55,7 +62,3 @@ The user connects at `/verify` and is then redirected to log in with Discord. Af
 [discord]: https://discord.gg/H7DqQs4
 [gitHub]: https://github.com/pedroslopez/whatsapp-web.js
 [npm]: https://npmjs.org/package/whatsapp-web.js
-
-## License
-
-WWebJS discord-linkedroles is licensed under the MIT license. Please see the [LICENSE file](LICENSE) for more information.
