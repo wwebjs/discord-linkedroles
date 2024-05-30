@@ -33,7 +33,7 @@ The user connects at `/verify` and is then redirected to log in with Discord. Af
 * [GitHub][gitHub]
 * [npm][npm]
 
-[api]: wwebjs-linkedroles.vercel.app
+[api]: https://wwebjs-linkedroles.vercel.app
 [website]: https://wwebjs.dev
 [guide]: https://guide.wwebjs.dev/guide
 [guide-source]: https://github.com/wwebjs/wwebjs.dev/tree/main
