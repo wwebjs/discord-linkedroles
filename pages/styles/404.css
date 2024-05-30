@@ -1,0 +1,10 @@
+@import url('main.css');
+
+.logo-image {
+  width: 200px;
+  height: 100px;
+}
+
+.center-text .main-text {
+  color: white;
+}
