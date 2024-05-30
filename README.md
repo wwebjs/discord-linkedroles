@@ -24,6 +24,14 @@ We have integrated linked roles into our [Discord server][discord], making it mo
 
 The user connects at `/verify` and is then redirected to log in with Discord. After logging in, the user is redirected to our role API, which sends a request to the Discord API to obtain the user's Discord identity. The user is then redirected back to `/discord-oauth-callback`, where the information is processed. The role API checks the database to see if the user is already registered, whether they are blocked manually, and if a request to GitHub has been made in the last hour to reduce data traffic. If not, the role API sends a request to the GitHub API to get the user's GitHub contributions. Then, the role API sends a request to the Discord API to add metadata information. If everything is successful, the user will see a *success page*. The user can now collect roles on Discord and access restricted channels.
 
+## Resources
+
+- [Discord documentation][discord-docs]
+- [Vercel documentation][vercel-docs]
+- [Apollo documentation][apollo-docs]
+- [MongoDB documentation][mongodb-docs]
+- [Express documentation][express-docs]
+
 ## Links
 
 * [Website][website]
@@ -34,6 +42,11 @@ The user connects at `/verify` and is then redirected to log in with Discord. Af
 * [npm][npm]
 
 [api]: https://wwebjs-linkedroles.vercel.app/verify
+[discord-docs]: https://discord.com/developers/docs
+[vercel-docs]: https://vercel.com/docs
+[apollo-docs]: https://www.apollographql.com/docs/
+[mongodb-docs]: https://docs.mongodb.com/
+[express-docs]: https://expressjs.com/en/4x/api.html
 [website]: https://wwebjs.dev
 [guide]: https://guide.wwebjs.dev/guide
 [guide-source]: https://github.com/wwebjs/wwebjs.dev/tree/main
