@@ -9,7 +9,7 @@
 
 ## About
 
-We have integrated linked roles into our [Discord server][discord], making it more organized and enhancing the user experience. Users can now link their Discord profile to GitHub, allowing us to verify their identity. This gives users access to additional channels and roles, such as Lib `Contributor`, `Guide Contributor`, and more. These roles are no longer assigned manually by the team; users can automatically receive them by visiting the [role API][api] and linking their Discord account.
+We have integrated linked roles into our [Discord server][discord], making it more organized and enhancing the user experience. Users can now link their Discord profile to GitHub, allowing us to verify their identity. This gives users access to additional channels and roles, such as `Lib Contributor`, `Guide Contributor`, and more. These roles are no longer assigned manually by the team; users can automatically receive them by visiting the [role API][api] and linking their Discord account.
 
 ## How to use
 
