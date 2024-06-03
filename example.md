@@ -8,7 +8,7 @@
 
 ![exmaple-image-2][example-image-2]  
 
-**3. Select the role you want to assign to yourself and press on the WWebJS requirement´:**  
+**3. Select the role you want to assign to yourself and press on the WWebJS requirement:**  
 
 ![exmaple-image-3][example-image-3]  
 
